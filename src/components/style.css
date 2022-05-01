@@ -1,0 +1,38 @@
+* {
+    background-color: aqua;
+}
+
+.mainDiv {
+    display: inline-block;
+    width: 50vw;
+}
+
+.btn {
+    font-size: 30px;
+    background-color: rgb(59, 173, 59);
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(130, 185, 130);
+}
+
+.showLeft {
+    position: absolute;
+    bottom: 33vh;
+    background-color: brown;
+    border-radius: 5px;
+    padding: 3rem 1rem;
+    margin: 0 5rem;
+    margin-left: 0;
+    text-align: center;
+    width: fit-content;
+    color: white;
+}
+.showLeft h1{
+    background-color: brown;
+}
+.showLeft p{
+    background-color: brown;
+}
